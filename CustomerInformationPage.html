@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Information Form</title>
+</head>
+<body>
+<div class="container">
+  <h2>Customer Information</h2>
+  <form id="customerForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <label for="contact">Contact Number:</label><br>
+    <input type="tel" id="contact" name="contact" required>
+    <br><br>
+    <label for="preferredDays">Preferred Days of Purchasing:</label><br>
+    <input type="text" id="preferredDays" name="preferredDays" required>
+    <br><br>
+    <label for="favoriteItem">Favorite Item:</label><br>
+    <select id="favoriteItem" name="favoriteItem" required>
+      <option value="">Select</option>
+      <option value="item1">item1</option>
+      <option value="item2">item2</option>
+      <option value="item3">item3</option>
+      <option value="item4">item4</option>
+    </select>
+    <br><br>
+    <label for="suggestions">Suggestions:</label><br>
+    <textarea id="suggestions" name="suggestions" rows="4"></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</div>
+</body>
+</html>
